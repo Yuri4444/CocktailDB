@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.filters.FiltersFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <CheckBox
+            android:id="@+id/ordinaryDrink"
+            style="@style/tvCriteria"
+            android:text="@string/ordinary_drink" />
+
+        <CheckBox
+            android:id="@+id/cocktail"
+            style="@style/tvCriteria"
+            android:text="@string/cocktail" />
+
+        <CheckBox
+            android:id="@+id/milkFloatShake"
+            style="@style/tvCriteria"
+            android:text="@string/milk_float_shake" />
+
+        <CheckBox
+            android:id="@+id/otherUnknown"
+            style="@style/tvCriteria"
+            android:text="@string/other_unknown" />
+
+        <CheckBox
+            android:id="@+id/cocoa"
+            style="@style/tvCriteria"
+            android:text="@string/cocoa" />
+
+        <CheckBox
+            android:id="@+id/shot"
+            style="@style/tvCriteria"
+            android:text="@string/shot" />
+
+        <CheckBox
+            android:id="@+id/coffeeTea"
+            style="@style/tvCriteria"
+            android:text="@string/coffee_tea" />
+
+        <CheckBox
+            android:id="@+id/homemadeLiqueur"
+            style="@style/tvCriteria"
+            android:text="@string/homemade_liqueur" />
+
+        <CheckBox
+            android:id="@+id/beer"
+            style="@style/tvCriteria"
+            android:text="@string/beer" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnApply"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_large"
+            android:background="@color/blackStandard"
+            android:text="@string/apply"
+            android:textColor="@color/white" />
+
+        <CheckBox
+            android:id="@+id/punchPartyDrink"
+            style="@style/tvCriteria"
+            android:text="@string/punch_party_drink" />
+
+    </LinearLayout>
+
+</ScrollView>

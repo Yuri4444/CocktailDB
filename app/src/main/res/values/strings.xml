@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Drinks</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="ordinary_drink">Ordinary Drink</string>
+    <string name="cocktail">Cocktail</string>
+    <string name="milk_float_shake">Milk / Float / Shake</string>
+    <string name="other_unknown">Other/Unknown</string>
+    <string name="cocoa">Cocoa</string>
+    <string name="shot">Shot</string>
+    <string name="coffee_tea">Coffee / Tea</string>
+    <string name="homemade_liqueur">Homemade Liqueur</string>
+    <string name="beer">Beer</string>
+    <string name="apply">Apply</string>
+    <string name="punch_party_drink">Punch / Party Drink</string>
+    <string name="filter">Filter</string>
+    <string name="drinks">Drinks</string>
+</resources>
